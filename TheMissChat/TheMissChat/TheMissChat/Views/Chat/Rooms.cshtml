@@ -1,0 +1,19 @@
+﻿@model List<TheMissChat.Models.ChatRoom>
+
+@{
+    ViewData["Title"] = "Chat Rooms";
+}
+
+<h2>Chat Rooms</h2>
+
+<ul class="list-group">
+@foreach (var room in Model)
+{
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>@room.Name</span>
+        <a class="btn btn-sm btn-primary" href="/Chat/Room/@room.Id">Join</a>
+    </li>
+}
+</ul>
+
+<a href="/Chat/CreateRoom" class="btn btn-success mt-3">Create Room</a>

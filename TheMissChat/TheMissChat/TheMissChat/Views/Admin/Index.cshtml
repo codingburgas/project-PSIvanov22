@@ -1,0 +1,188 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<style>
+    .admin-card {
+        background: #f7f0e3;
+        border: 1px solid #d8c9a7;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .admin-card h4 {
+        font-family: Georgia;
+        color: #5a4632;
+        margin-bottom: 10px;
+    }
+
+    .admin-card h2 {
+        font-family: Georgia;
+        color: #3b2f2f;
+        font-size: 32px;
+    }
+
+    .admin-table {
+        background: #fff9ec;
+        border: 1px solid #d8c9a7;
+    }
+
+    .admin-table th {
+        background: #e8dcc2;
+        color: #3b2f2f;
+        font-family: Georgia;
+    }
+
+    .admin-table td {
+        font-family: Georgia;
+        color: #3b2f2f;
+    }
+</style>
+
+<h2 style="font-family: Georgia; color:#3b2f2f;">Admin Dashboard</h2>
+<hr />
+
+<!-- DASHBOARD CARDS -->
+<div class="row">
+    <div class="col-md-4">
+        <div class="admin-card">
+            <h4>Total Users</h4>
+            <h2>@ViewBag.Users.Count</h2>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="admin-card">
+            <h4>Total Rooms</h4>
+            <h2>@ViewBag.Rooms.Count</h2>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="admin-card">
+            <h4>Total Messages</h4>
+            <h2>@ViewBag.Messages.Count</h2>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<!-- USERS -->
+<h3 style="font-family: Georgia; color:#3b2f2f;">Users</h3>
+
+<input type="text" class="form-control mb-2" placeholder="Search users..." onkeyup="filterTable(this, 'usersTable')" />
+
+<table id="usersTable" class="table table-bordered admin-table">
+    <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Role</th>
+        <th>Change Role</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var u in ViewBag.Users)
+    {
+        <tr>
+            <td>@u.Id</td>
+            <td>@u.Username</td>
+            <td>@u.Role</td>
+
+            <td>
+                <form method="post" action="/Admin/ChangeRole" class="d-inline">
+                    <input type="hidden" name="id" value="@u.Id" />
+                    <select name="role" onchange="this.form.submit()" class="form-select form-select-sm">
+                        <option value="User" selected="@(u.Role == "User")">User</option>
+                        <option value="Admin" selected="@(u.Role == "Admin")">Admin</option>
+
+                    </select>
+                </form>
+            </td>
+
+            <td>
+                <form method="post" action="/Admin/DeleteUser" onsubmit="return confirm('Delete this user?')">
+                    <input type="hidden" name="id" value="@u.Id" />
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<hr />
+
+<!-- ROOMS -->
+<h3 style="font-family: Georgia; color:#3b2f2f;">Rooms</h3>
+
+<input type="text" class="form-control mb-2" placeholder="Search rooms..." onkeyup="filterTable(this, 'roomsTable')" />
+
+<table id="roomsTable" class="table table-bordered admin-table">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var r in ViewBag.Rooms)
+    {
+        <tr>
+            <td>@r.Id</td>
+            <td>@r.Name</td>
+            <td>
+                <form method="post" action="/Admin/DeleteRoom" onsubmit="return confirm('Delete this room?')">
+                    <input type="hidden" name="id" value="@r.Id" />
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<hr />
+
+<!-- MESSAGES -->
+<h3 style="font-family: Georgia; color:#3b2f2f;">Messages</h3>
+
+<input type="text" class="form-control mb-2" placeholder="Search messages..." onkeyup="filterTable(this, 'messagesTable')" />
+
+<table id="messagesTable" class="table table-bordered admin-table">
+    <tr>
+        <th>ID</th>
+        <th>User</th>
+        <th>Text</th>
+        <th>Room</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (var m in ViewBag.Messages)
+    {
+        <tr>
+            <td>@m.Id</td>
+            <td>@m.User.Username</td>
+            <td>@m.Text</td>
+            <td>@m.RoomId</td>
+            <td>
+                <form method="post" action="/Admin/DeleteMessage" onsubmit="return confirm('Delete this message?')">
+                    <input type="hidden" name="id" value="@m.Id" />
+                    <button class="btn btn-danger btn-sm">Delete</button>
+                </form>
+            </td>
+        </tr>
+    }
+</table>
+
+<script>
+function filterTable(input, tableId) {
+    let filter = input.value.toLowerCase();
+    let rows = document.querySelectorAll(`#${tableId} tr`);
+
+    rows.forEach((row, index) => {
+        if (index === 0) return;
+        row.style.display = row.innerText.toLowerCase().includes(filter) ? "" : "none";
+    });
+}
+</script>

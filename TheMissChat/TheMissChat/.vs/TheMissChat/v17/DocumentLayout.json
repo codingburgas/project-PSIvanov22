@@ -1,0 +1,630 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423210050_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423210050_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\chat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423204526_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423204526_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423203909_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423203909_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\account\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\account\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423200537_AddUserRoleAndPasswordHash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423200537_AddUserRoleAndPasswordHash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\chat\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\chat\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423190533_CleanStart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423190533_CleanStart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423190225_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423190225_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\models\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\models\\chatroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\chat\\createroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\chat\\createroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\models\\chatroomuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\models\\chatroomuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\chat\\rooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\chat\\rooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423174120_MessagesFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423174120_MessagesFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423174111_AddMessagesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TheMissChat\\Migrations\\20260423174111_AddMessagesTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|c:\\users\\\u0430\u0434\u043C\u0438\u043D\\source\\repos\\themisschat\\themisschat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD451A80-4FB0-4275-AD53-C95EB6F9D569}|TheMissChat\\TheMissChat.csproj|solutionrelative:themisschat\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20260423210050_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423210050_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423210050_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423210050_InitialCreate.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423210050_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T21:00:51.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260423204526_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423204526_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423204526_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423204526_InitialCreate.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423204526_InitialCreate.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:45:26.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260423203909_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423203909_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423203909_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423203909_InitialCreate.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423203909_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:39:09.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Account\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Account\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Account\\AdminLogin.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Account\\AdminLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T20:16:10.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T20:07:37.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "TheMissChat\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:07:04.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20260423200537_AddUserRoleAndPasswordHash.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423200537_AddUserRoleAndPasswordHash.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423200537_AddUserRoleAndPasswordHash.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423200537_AddUserRoleAndPasswordHash.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423200537_AddUserRoleAndPasswordHash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T20:05:37.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T19:29:35.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T19:29:26.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260423190533_CleanStart.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423190533_CleanStart.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423190533_CleanStart.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423190533_CleanStart.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423190533_CleanStart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T19:05:34.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260423190225_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423190225_Initial.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423190225_Initial.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423190225_Initial.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423190225_Initial.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T19:02:25.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Room.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\Room.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Chat\\Room.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\Room.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Chat\\Room.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAgwGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T18:15:45.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateRoom.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\CreateRoom.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Chat\\CreateRoom.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\CreateRoom.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Chat\\CreateRoom.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T18:15:22.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Rooms.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\Rooms.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Chat\\Rooms.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\Rooms.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Chat\\Rooms.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T18:15:07.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T17:52:32.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T17:51:39.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TheMissChat\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:49:47.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Services\\UserService.cs",
+              "RelativeToolTip": "TheMissChat\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:48:49.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260423174120_MessagesFix.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423174120_MessagesFix.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423174120_MessagesFix.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423174120_MessagesFix.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423174120_MessagesFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:41:20.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20260423174111_AddMessagesTable.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423174111_AddMessagesTable.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Migrations\\20260423174111_AddMessagesTable.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Migrations\\20260423174111_AddMessagesTable.cs",
+              "RelativeToolTip": "TheMissChat\\Migrations\\20260423174111_AddMessagesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:41:11.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\Index.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Chat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Chat\\Index.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Chat\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T17:15:25.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "TheMissChat\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:13:47.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "chat.js",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "TheMissChat\\wwwroot\\js\\chat.js",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "TheMissChat\\wwwroot\\js\\chat.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-23T17:10:37.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TheMissChat\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TheMissChat\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAiwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-23T17:07:25.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "TheMissChat\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T17:07:03.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TheMissChat\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\appsettings.Development.json",
+              "RelativeToolTip": "TheMissChat\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T17:02:39.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\appsettings.json",
+              "RelativeDocumentMoniker": "TheMissChat\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\appsettings.json",
+              "RelativeToolTip": "TheMissChat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T17:01:09.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TheMissChat\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:55:50.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TheMissChat\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:45:41.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Program.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Program.cs",
+              "RelativeToolTip": "TheMissChat\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:33:59.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TheMissChat\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:33:20.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChatRoomUser.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\ChatRoomUser.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Models\\ChatRoomUser.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\ChatRoomUser.cs",
+              "RelativeToolTip": "TheMissChat\\Models\\ChatRoomUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:31:19.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatRoom.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\ChatRoom.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Models\\ChatRoom.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\ChatRoom.cs",
+              "RelativeToolTip": "TheMissChat\\Models\\ChatRoom.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:30:59.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\Message.cs",
+              "RelativeToolTip": "TheMissChat\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:30:42.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\User.cs",
+              "RelativeToolTip": "TheMissChat\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:30:13.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "TheMissChat\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\\u0410\u0434\u043C\u0438\u043D\\source\\repos\\TheMissChat\\TheMissChat\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "TheMissChat\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T16:29:48.065Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

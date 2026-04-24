@@ -1,0 +1,108 @@
+﻿@model List<TheMissChat.Models.Message>
+
+@{
+    ViewData["Title"] = ViewBag.RoomName;
+}
+
+<style>
+    .chat-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .chat-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 12px;
+        background: #f7f0e3;
+        border: 1px solid #d8c9a7;
+        border-radius: 12px;
+    }
+
+    .msg-row {
+        display: flex;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .msg-me {
+        justify-content: flex-end;
+    }
+
+    .msg-other {
+        justify-content: flex-start;
+    }
+
+    .msg-block {
+        max-width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .msg-user {
+        font-size: 13px;
+        font-family: "Georgia", serif;
+        color: #5a4632;
+        margin-bottom: 2px;
+        opacity: 0.9;
+        padding-left: 4px;
+    }
+
+    .msg-bubble {
+        padding: 6px 10px;
+        border-radius: 12px;
+        font-size: 15px;
+        font-family: "Georgia", serif;
+        line-height: 1.4;
+        border: 1px solid #c8b79a;
+        display: inline-block;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+    }
+
+    .msg-me .msg-bubble {
+        background: #e3d5b8;
+        border-bottom-right-radius: 4px;
+    }
+
+    .msg-other .msg-bubble {
+        background: #fff9ec;
+        border-bottom-left-radius: 4px;
+    }
+
+    .chat-input-bar {
+        display: flex;
+        gap: 10px;
+        margin-top: 12px;
+    }
+
+    .chat-input-bar input {
+        flex: 1;
+    }
+</style>
+
+<h3 style="font-family: Georgia; color:#3b2f2f;">@ViewBag.RoomName</h3>
+
+<div class="chat-wrapper">
+
+    <div class="chat-messages">
+        @foreach (var msg in Model)
+        {
+            var isMe = msg.User == Context.Session.GetString("Username");
+
+            <div class="msg-row @(isMe ? "msg-me" : "msg-other")">
+                <div class="msg-block">
+                    <div class="msg-user">@msg.User</div>
+                    <div class="msg-bubble">@msg.Text</div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <form method="post" class="chat-input-bar">
+        <input type="text" name="text" placeholder="Write with your digital quill..." />
+        <button type="submit">Send</button>
+    </form>
+
+</div>

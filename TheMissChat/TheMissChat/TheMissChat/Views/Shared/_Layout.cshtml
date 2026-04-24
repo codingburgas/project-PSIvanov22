@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TheMissChat</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <style>
+
+        /* --- GLOBAL OLD BOOK BACKGROUND (NO IMAGES) --- */
+        body {
+            background: 
+                radial-gradient(circle at top left, #f5e6c5, #e8d7b8 40%, #d9c7a3 80%),
+                repeating-linear-gradient(45deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px, transparent 2px, transparent 6px);
+            font-family: "Georgia", serif;
+            color: #3b2f2f;
+        }
+
+        /* --- NAVBAR (OLD BOOK STYLE) --- */
+        .navbar {
+            background:
+                linear-gradient(to bottom, #d8c7a3, #c9b48f);
+            border-bottom: 3px solid #5a4632;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .navbar-brand {
+            font-family: "Georgia", serif;
+            font-size: 28px;
+            font-weight: bold;
+            color: #3b2f2f !important;
+            text-shadow: 1px 1px #f5e6c5;
+        }
+
+        .nav-link {
+            font-family: "Georgia", serif;
+            font-size: 18px;
+            color: #3b2f2f !important;
+            padding: 10px 15px;
+        }
+
+        .nav-link:hover {
+            color: #2a1f1f !important;
+            text-shadow: 1px 1px #f5e6c5;
+        }
+
+        /* --- ADMIN BUTTON --- */
+        .admin-btn {
+            font-weight: bold;
+            border: 1px solid #5a4632;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, #f5e6c5, #e8d7b8);
+            padding: 6px 12px !important;
+        }
+
+        .admin-btn:hover {
+            background: linear-gradient(to bottom, #fff3d6, #f0dfc0);
+        }
+
+        /* --- MAIN CONTAINER (BOOK PAGE) --- */
+        .book-container {
+            background:
+                linear-gradient(to bottom right, #f5e6c5, #e8d7b8),
+                repeating-linear-gradient(90deg, rgba(0,0,0,0.02) 0px, rgba(0,0,0,0.02) 1px, transparent 1px, transparent 4px);
+            padding: 25px;
+            border-radius: 12px;
+            border: 2px solid #c9b48f;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            margin-top: 20px;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background: linear-gradient(to bottom, #d8c7a3, #c9b48f);
+            border-top: 3px solid #5a4632;
+            padding: 15px;
+            text-align: center;
+            color: #3b2f2f;
+            font-family: "Georgia", serif;
+            margin-top: 40px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    TheMissChat
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Chat" asp-action="Rooms">Rooms</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <!-- ⭐ ADMIN LOGIN BUTTON ⭐ -->
+                        <li class="nav-item">
+                            <a class="nav-link admin-btn" href="/Account/AdminLogin">Admin Login</a>
+                        </li>
+
+                        @if (Context.Session.GetString("Username") != null)
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link">
+                                    👤 @Context.Session.GetString("Username")
+                                </span>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Logout">Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Account" asp-action="Register">Register</a>
+                            </li>
+                        }
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container book-container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        TheMissChat © 2026 — Written in digital ink.
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
